@@ -1,0 +1,248 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "temp",
+      "request": "launch",
+      "mainClass": "temp",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "Moving_Banner",
+      "request": "launch",
+      "mainClass": "Moving_Banner",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "MenuExample",
+      "request": "launch",
+      "mainClass": "MenuExample",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "Dialog_Example",
+      "request": "launch",
+      "mainClass": "Dialog_Example",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "WindowEventExample",
+      "request": "launch",
+      "mainClass": "WindowEventExample",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "KeyEventExample_Moving",
+      "request": "launch",
+      "mainClass": "KeyEventExample_Moving",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "ItemEvent_CheckboxGroup",
+      "request": "launch",
+      "mainClass": "ItemEvent_CheckboxGroup",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "ItemEvent_List_Choice",
+      "request": "launch",
+      "mainClass": "ItemEvent_List_Choice",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "ItemEvent_Checkbox",
+      "request": "launch",
+      "mainClass": "ItemEvent_Checkbox",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "getSourceExample",
+      "request": "launch",
+      "mainClass": "getSourceExample",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "MouseEventExample",
+      "request": "launch",
+      "mainClass": "MouseEventExample",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "GridBagLayoutDemo",
+      "request": "launch",
+      "mainClass": "GridBagLayoutDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "CardLayoutDemo",
+      "request": "launch",
+      "mainClass": "CardLayoutDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "GridLayoutDemo",
+      "request": "launch",
+      "mainClass": "GridLayoutDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "FlowLayoutDemo",
+      "request": "launch",
+      "mainClass": "FlowLayoutDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "DaemonThreadDemo",
+      "request": "launch",
+      "mainClass": "DaemonThreadDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "ThreadGroupDemo",
+      "request": "launch",
+      "mainClass": "ThreadGroupDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "Main4",
+      "request": "launch",
+      "mainClass": "Main4",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "InterThreadCommunicationDemo",
+      "request": "launch",
+      "mainClass": "InterThreadCommunicationDemo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "SynchronizedMethod",
+      "request": "launch",
+      "mainClass": "SynchronizedMethod",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "RandomAccess",
+      "request": "launch",
+      "mainClass": "RandomAccess",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "TokenizeFile",
+      "request": "launch",
+      "mainClass": "TokenizeFile",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "FormattedWrite",
+      "request": "launch",
+      "mainClass": "FormattedWrite",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "TextWrite",
+      "request": "launch",
+      "mainClass": "TextWrite",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "ReadInput",
+      "request": "launch",
+      "mainClass": "ReadInput",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "ByteArrayReading",
+      "request": "launch",
+      "mainClass": "ByteArrayReading",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "demo",
+      "request": "launch",
+      "mainClass": "demo",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "FilePortionRead",
+      "request": "launch",
+      "mainClass": "FilePortionRead",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "FileRead_WithoutTypecast",
+      "request": "launch",
+      "mainClass": "FileRead_WithoutTypecast",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "CreateFileExample1",
+      "request": "launch",
+      "mainClass": "CreateFileExample1",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "type": "java",
+      "name": "FileProperties",
+      "request": "launch",
+      "mainClass": "FileProperties",
+      "projectName": "LECTURE_CODE_ec5af3c1"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/JAVA LANGUAGE/LECTURE_CODE",
+      "program": "e:/JAVA LANGUAGE/LECTURE_CODE/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
