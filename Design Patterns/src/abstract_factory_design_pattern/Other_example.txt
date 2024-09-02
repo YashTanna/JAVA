@@ -1,0 +1,82 @@
+// Interfaces for products
+interface Button {
+    void paint();
+}
+
+interface TextBox {
+    void render();
+}
+
+// Concrete products for Windows
+class WindowsButton implements Button {
+    public void paint() {
+        System.out.println("Rendering a button in Windows style");
+    }
+}
+
+class WindowsTextBox implements TextBox {
+    public void render() {
+        System.out.println("Rendering a text box in Windows style");
+    }
+}
+
+// Concrete products for Mac
+class MacButton implements Button {
+    public void paint() {
+        System.out.println("Rendering a button in Mac style");
+    }
+}
+
+class MacTextBox implements TextBox {
+    public void render() {
+        System.out.println("Rendering a text box in Mac style");
+    }
+}
+
+// Abstract Factory
+interface GUIFactory {
+    Button createButton();
+    TextBox createTextBox();
+}
+
+// Concrete factories
+class WindowsFactory implements GUIFactory {
+    public Button createButton() {
+        return new WindowsButton();
+    }
+    public TextBox createTextBox() {
+        return new WindowsTextBox();
+    }
+}
+
+class MacFactory implements GUIFactory {
+    public Button createButton() {
+        return new MacButton();
+    }
+    public TextBox createTextBox() {
+        return new MacTextBox();
+    }
+}
+
+// Client code
+public class Application {
+    private Button button;
+    private TextBox textBox;
+
+    public Application(GUIFactory factory) {
+        button = factory.createButton();
+        textBox = factory.createTextBox();
+    }
+
+    public void paint() {
+        button.paint();
+        textBox.render();
+    }
+
+    public static void main(String[] args) {
+        // Use a specific factory based on OS
+        GUIFactory factory = new WindowsFactory();
+        Application app = new Application(factory);
+        app.paint();
+    }
+}
